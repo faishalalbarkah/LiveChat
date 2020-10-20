@@ -1,0 +1,41 @@
+.Body-Greeting {
+  display: block;
+  position: fixed;
+  bottom: 80px;
+  right: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  /* z-index: 999999; */
+}
+
+.btn-close-greeting > p {
+  padding-left: 10px;
+  padding-top: 2px;
+  /* font-size: 16px; */
+  border-radius: 50%;
+  width: 30px !important;
+  height: 30px;
+  /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  background: #d8d8d8;
+  float: right;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.Card-Greeting {
+  overflow-x: hidden;
+  width: 250px;
+  height: 200px;
+  color: white;
+  padding: 15px;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  /* border: 1px solid black; */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.Text-Greeting {
+  color: black;
+  font-size: 15px;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,128 @@
+.Body-Index {
+  /* width: 20%; */
+  /* position: fixed; */
+  /* bottom: 0px;
+    right: 0px; */
+  /* display: block; */
+  background-color: white;
+  /* margin-right: 5px; */
+
+  display: none;
+}
+
+.toast {
+  max-width: 100% !important;
+}
+
+.Panel-Header {
+  height: 65px;
+  background-color: #03a9f4 !important;
+}
+
+.Panel-Header-Left {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Panel-Header-Right {
+  float: right;
+  margin-top: 15px;
+  /* margin-right: 40px; */
+}
+
+.Icon {
+  font-size: 20px !important;
+  color: white;
+  cursor: pointer;
+}
+
+.Panel-Body {
+  padding: 0px;
+}
+
+.Chat-Login-Area-Index {
+  height: 390px;
+  padding: 12px 8px 0px 8px;
+  border: 1px solid #03a9f4;
+}
+
+.Form-Judul {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Form-Text {
+  border-radius: 50px !important;
+}
+
+.Button-Form-Index {
+  width: 100% !important;
+  height: 40px;
+  border-radius: 25px !important;
+  background-color: #03a9f4 !important;
+  margin-left: 0 !important;
+}
+
+.Button-Form-Index > p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: -3px !important;
+}
+
+.Logo-Chat-2 {
+  display: block;
+  height: 65px;
+  width: 65px !important;
+  /* border-radius: 50% !important;
+    background-color:  #03A9F4 !important; */
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  z-index: 99999;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.IconDashboard-2 {
+  font-size: 45px !important;
+  color: white;
+  margin-left: 5px !important;
+  margin-top: -5px;
+}
+
+.Error {
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}
+.Icon-Close {
+  font-size: 20px;
+  margin-top: -32px;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  position: relative;
+}
+
+.Icon-Close-OM {
+  font-size: 20px;
+  margin-top: 2px;
+  color: #fff;
+  cursor: pointer;
+  float: right;
+  margin-right: 15px;
+  position: relative;
+}
+
+.OfflineMode-Height {
+  padding-bottom: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+iframe {
+  overflow: hidden;
+}

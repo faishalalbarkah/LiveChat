@@ -1,0 +1,12 @@
+.Pembungkus-FormGuest-Greeting {
+    height: auto;
+    /* overflow-x: hidden; */
+    background: #e9ecef;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.Pembungkus-FormGuest-Greeting > span {
+    font-size: 15px;
+    white-space: pre-wrap;
+}

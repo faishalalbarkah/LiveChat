@@ -1,0 +1,103 @@
+.Body-Withdraw {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Content-Right-Withdraw{
+    min-height: 800px;
+    width: 100%;
+    background-color: #DCDCDC;
+    margin-right: 30px; 
+    margin-bottom: 20px;   
+}
+
+.page-title-Withdraw {
+    height: 60px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+.page-title-Withdraw > p {
+    color: #263238;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 30px;   
+}
+
+.Pembungkus-Withdraw {
+    background-color: #fff;
+    border-radius: 4px; 
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    height: 100%!important;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Pembungkus-Header-Withdraw {
+    height: 60px;
+    padding: 15px;
+    border-bottom: 1px solid #2196F3;
+    border-left: 5px solid #2196F3;
+    border-top-left-radius: 5px;
+}
+
+.Pembungkus-Header-Withdraw > p {
+    position: absolute;
+}
+
+.Tabss1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:#2196F3 !important
+}
+
+.adjustment-height-Withdraw {
+    margin-top: 1px;
+    height: 38px!important;
+}
+
+.style-font-Withdraw{
+    padding: 8px;
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+/* //Approved */
+#style-font-name{
+    color:#2196F3 !important;
+    cursor:pointer;
+    
+}
+#style-font-email{
+    color: #62D43D !important;
+}
+
+/* //button */
+#btn-view-Approved {
+    background-color: green!important;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.84)!important;
+    width: 80px!important;
+    border: 0px;
+}
+
+#btn-view-Rejected{
+    background-color:red!important;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.84)!important;
+    width: 80px!important;
+    border: 0px;
+}
+
+.Input-Action-Registrasi {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Modal Approved */
+.modal-content {
+    width: 700px!important;
+    border-radius: 0px!important;
+}

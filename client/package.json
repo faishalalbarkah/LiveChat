@@ -1,0 +1,66 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "/ab",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "autosize": "^4.0.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "dropify": "^0.2.2",
+    "env-cmd": "^10.1.0",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.27.0",
+    "pg": "^7.11.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.1.1",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.0.2",
+    "react-highlight": "^0.12.0",
+    "react-highlight-words": "^0.16.0",
+    "react-icons": "^3.10.0",
+    "react-moment": "^0.9.7",
+    "react-paginate": "^6.3.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-role-authorization": "^1.1.4",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.2",
+    "socketio": "^1.0.0",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts npm run react .env",
+    "react": "react-scripts start .env",
+    "server": "nodemon src/server/index.js",
+    "build": "react-scripts build .env.production",
+    "test": ".env react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}

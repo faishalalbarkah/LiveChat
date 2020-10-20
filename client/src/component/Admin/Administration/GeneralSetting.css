@@ -1,0 +1,94 @@
+.Body-GS {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Content-Right-GS{
+    min-height: 100%;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+
+.page-title-GS {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+}
+
+.page-title-GS > p {
+    color: #263238;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#Content-Area-GS {
+    padding: 0px 20px!important;
+}
+
+.panel-heading-1-GS {
+    background-color: #009688 !important;
+}
+
+.panel-heading-1-GS > .nav-item > a {
+    color: white!important;
+}
+
+#Panel-Body-1-GS {
+    background-color: white;
+    min-height: 500px;
+    border-radius: 5px;
+}
+
+.Pembungkus-Header-GS {
+    height: 60px;
+    padding: 15px;
+    border-bottom: 1px solid #2196F3;
+    border-left: 5px solid #2196F3;
+    border-top-left-radius: 5px;
+    background-color: white;
+}
+
+.params-panel {
+    border: 1px solid #CCC;
+    overflow: hidden;
+    padding: 15px!important;
+    margin: 15px;
+    border-radius: 4px;   
+}
+
+.params-panel > p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.custom-file {
+    width: 300px;
+    height: 100px;
+    border: 2px solid #E5E5E5;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#Custome-File-Input {
+    width: 530px;
+
+}
+
+#Icon-upload {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.btn-upload-GS {
+    margin-top: 20px;
+    width: 260px!important;
+}
